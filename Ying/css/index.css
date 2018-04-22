@@ -112,8 +112,8 @@ footer p {
 .news ul {
   list-style: none;
   padding: 0;
-  margin: 0.5rem 0;
-  font-size: 20px;
+  margin: 1rem 0;
+  font-size: 18px;
 }
 
 .date {
@@ -122,7 +122,7 @@ footer p {
 
 .news {
   margin: 1rem 0rem;
-  margin-right: 10%;
+  margin-right: 5%;
 }
 
 .more a{
@@ -130,7 +130,7 @@ footer p {
   color: black;
   padding: 3px;
   border-radius: 5px;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .more {
@@ -146,13 +146,13 @@ footer p {
 
 .activity {
   margin-top: 1rem;
-  margin-left: 10%;
+  margin-left: 5%;
 }
 
 .activity ul {
   list-style: none;
   padding: 0;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .activity a {

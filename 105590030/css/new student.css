@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial,'微軟正黑體', Helvetica, sans-serif;
+}
+
+#CSIE {
+  height:auto;
+  width:15rem;
+  margin: 0;
+  margin-left: 5rem;
+}
+
+nav .search #submit{
+  height: 1.5rem;
+  width: auto;
+  margin: 0;
+  vertical-align: middle;
+}
+
+nav #input {
+  margin: 0;
+  font-size: 1rem;
+}
+
+nav .search {
+  position:absolute;
+  right: 0;
+  top: 0;
+  margin-right: 5rem;
+  padding-top: 4.5rem;
+}
+
+nav ul{
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 2rem 0;
+  background-color: #235192;
+}
+
+nav li {
+  margin: 0 1.5rem;
+}
+
+nav a {
+  font-size: 30px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#statement {
+  width: 50%;
+  height: auto;
+  align-items:center;
+  padding: 1rem 0;
+  padding-left: 12rem;
+  padding-right: 8rem;
+  max-width: 30%;
+}
+
+#contact {
+  width: 50%;
+  height: auto;
+  align-items:center;
+}
+
+footer {
+  background-color: #235192;
+  padding: 1rem 0;
+  justify-content: center;
+  display: flex;
+}
+
+footer p {
+
+  color: white;
+}
+
+.blank {
+  width: 100%;
+}
+#main-photo{
+  height:400px;
+  width:100%;
+  margin: 0;
+}
+.main-subject{
+  width:75%;
+  padding-left: 12.5%;
+  margin-bottom: 3%;
+}
+.sub-title{
+  /* padding:0px 600px; */
+  text-align: center;
+  background-color: #8fc9ff;
+  font-size: 28px;
+  font-weight: bold;
+}
+.writing{
+  font-size: 20px;
+  margin-left:5%;
+}
+.all-icon{
+  margin-top:3%;
+  text-align: center;
+}
+#icon{
+  margin-left:2%;
+}

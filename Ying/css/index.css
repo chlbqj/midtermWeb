@@ -76,11 +76,86 @@ footer {
 }
 
 footer p {
-
   color: white;
 }
 
-.blank {
-  height: 20rem;
-  width: 100%;
+.video {
+  display: flex;
+  background-color: #1b90fd;
+}
+
+.video iframe {
+  margin: 1rem 7rem;
+}
+
+.video .intro {
+  max-width: 25%;
+  padding: 7rem 0;
+}
+
+.video h2 ,h4{
+  margin: 0.5rem 0;
+}
+
+.content h1 {
+  margin:1rem 0;
+  background-color: #8fc9ff;
+  border-radius: 3px;
+  text-align:center;
+}
+
+.news a {
+  text-decoration: none;
+  color: black;
+}
+
+.news ul {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0;
+  font-size: 18px;
+}
+
+.date {
+  color: gray;
+}
+
+.news {
+  margin: 1rem 0rem;
+  margin-right: 5%;
+}
+
+.more a{
+  background-color: gray;
+  color: black;
+  padding: 3px;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+.more {
+  text-align: right;
+  margin-right: 0rem;
+}
+
+.content {
+  display: flex;
+  padding: 0 15%;
+  margin-bottom:3%;
+}
+
+.activity {
+  margin-top: 1rem;
+  margin-left: 5%;
+}
+
+.activity ul {
+  list-style: none;
+  padding: 0;
+  font-size: 18px;
+}
+
+.activity a {
+  text-decoration: none;
+  color: black;
 }

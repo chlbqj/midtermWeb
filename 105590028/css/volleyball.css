@@ -1,0 +1,259 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial,'微軟正黑體', Helvetica, sans-serif;
+  }
+  
+  #CSIE {
+    height:auto;
+    width:15rem;
+    margin: 0;
+    margin-left: 5rem;
+  }
+  
+  nav .search #submit{
+    height: 1.5rem;
+    width: auto;
+    margin: 0;
+    vertical-align: middle;
+  }
+  
+  nav #input {
+    margin: 0;
+    font-size: 1rem;
+  }
+  
+  nav .search {
+    position:absolute;
+    right: 0;
+    top: 0;
+    margin-right: 5rem;
+    padding-top: 4.5rem;
+  }
+  /* #123 */
+  nav ul{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 1rem 0;
+    background-color: #235192;
+  }
+  /* #123 */
+  nav li {
+    position: relative;
+    white-space: nowrap;
+    border-right: white 1px solid;
+    padding:  0;
+    margin: 0 ;
+    
+  }
+  /* #123 */
+  nav ul > li:last-child {
+    border-right: none;
+  }
+  /* #123 */
+  nav ul ul > li {
+    border-right: none;
+  }
+  /* #123 */
+  nav a {
+    display: block;
+    padding: 0 1.5rem;
+    line-height: 40px;
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  /* #123 */
+  nav ul ul{
+    display: block;
+    padding: 0;
+    position: absolute;
+    z-index: 99;
+    left: -1px;
+    top: 40px;
+    text-align: center;
+    min-width: 168px;
+    background-color: rgb(47, 102, 179);
+    border: #ccc 1px solid;
+    opacity: 0;
+    -webkit-transition: opacity 0.5s;
+    transition: opacity 0.5s;
+  }
+  /* 123 */
+  nav ul ul li{
+    border-bottom: #ccc 1px solid;
+    position: relative;
+    white-space: nowrap;
+    padding: 5px 0;
+    margin: 0 ;
+  }
+  /* #123 */
+  nav ul ul li a{
+    line-height: 26px;
+    font-size: 19.5px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  /* #123 */
+  nav ul ul li:last-child{
+    border-bottom: none;
+  }
+  /* #123 */
+  nav ul li:hover > ul { /*展開選單*/
+    display: block;
+    opacity: 1;
+    -webkit-transition: opacity 0.5s;
+    transition: opacity 0.5s;
+  }
+  
+  #statement {
+    width: 50%;
+    height: auto;
+    align-items:center;
+    padding: 1rem 0;
+    padding-left: 12rem;
+    padding-right: 8rem;
+    max-width: 30%;
+  }
+  
+  #contact {
+    width: 50%;
+    height: auto;
+    align-items:center;
+  }
+  
+  footer {
+    background-color: #235192;
+    padding: 1rem 0;
+    justify-content: center;
+    display: flex;
+  }
+  
+  footer p {
+    color: white;
+  }
+  
+  .blank {
+    display: flex;
+    padding-left: 15% ;
+    background-color: #1b90fd;
+  }
+
+ 
+  .blank #main-photo{
+    height: 400px;
+    width: auto;
+  }
+  
+  .blank .intro {
+    max-width: 40%; 
+    margin-left:5%;
+    margin-top:7%;
+  }
+  .blank  .intro p{
+        
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+  }
+
+  .content{
+    display: flex;
+    justify-content: space-around;
+    
+    margin:0;
+    margin-bottom:3%;
+  }
+  .content h1 {
+    margin:1rem 0;
+    background-color: #8fc9ff;
+    border-radius: 3px;
+    text-align:center;
+  }
+  
+  .news a {
+    
+    text-decoration: none;
+    color: black;
+  }
+  .albums-photo img{
+    width:150px;
+    height:auto;
+  }
+  
+  
+ 
+  .news ul {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0;
+    font-size: 18px;
+  }
+  
+  .date {
+    color: gray;
+  }
+  
+  .news {
+    
+    margin-left: 10%;
+  }
+  
+  .albums{
+    margin-right: 10%;
+  }
+  .more a{
+    background-color: gray;
+    color: black;
+    padding: 3px;
+    border-radius: 5px;
+    font-size: 18px;
+  }
+  
+  .more {
+    text-align: right;
+    margin-right: 0rem;
+  } 
+  
+ .person{
+   text-align: center;
+ }
+  .person img {
+    height:auto;
+    width:200px;
+  }
+  
+  .person p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin:0; 
+  }
+  
+  .line {
+    display: flex;
+    justify-content: space-around;
+    margin:0 -10% ;
+    margin-bottom:1%;
+  }
+
+  .content member h1 {
+    margin:1rem 0;
+    background-color: #8fc9ff;
+    border-radius: 3px;
+    text-align:center;
+  }
+.member{
+  margin: 0;
+}
+
+.clothes img{
+  display: flex;
+  height:400px;
+    width:auto;
+}

@@ -80,11 +80,12 @@ footer p {
 }
 
 .blank {
-  width: 100%;
+  padding-top:1%;
+  text-align: center;
 }
 #main-photo{
-  height:400px;
-  width:100%;
+  height:630px;
+  width: auto;
   margin: 0;
 }
 .main-subject{

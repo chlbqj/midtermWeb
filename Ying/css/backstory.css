@@ -79,34 +79,8 @@ footer p {
   color: white;
 }
 
-.blank {
-  width: 100%;
-}
-#main-photo{
+.content img {
   height:400px;
-  width:100%;
+  width: auto;
   margin: 0;
-}
-.main-subject{
-  width:75%;
-  padding-left: 12.5%;
-  margin-bottom: 3%;
-}
-.sub-title{
-  /* padding:0px 600px; */
-  text-align: center;
-  background-color: #8fc9ff;
-  font-size: 28px;
-  font-weight: bold;
-}
-.writing{
-  font-size: 20px;
-  margin-left:5%;
-}
-.all-icon{
-  margin-top:3%;
-  text-align: center;
-}
-#icon{
-  margin-left:2%;
 }

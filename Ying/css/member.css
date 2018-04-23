@@ -8,11 +8,12 @@ body {
   height:auto;
   width:15rem;
   margin: 0;
-  margin-left: 5rem;
 }
 
 .title a {
-  width: 15rem;
+  width:15rem;
+  margin-left: 5rem;
+  padding: 0;
 }
 
 nav .search #submit{

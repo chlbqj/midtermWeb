@@ -176,6 +176,7 @@ footer p {
   height:300px;
   width: auto;
   justify-content: center;
+  border-radius: 1%;
 }
 
 .member h2 {

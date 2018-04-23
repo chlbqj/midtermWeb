@@ -79,8 +79,63 @@ footer p {
   color: white;
 }
 
-.content img {
-  height:400px;
+.cover_photo img {
+  height:630px;
   width: auto;
   margin: 0;
+}
+
+.cover_photo {
+  padding-top:1%;
+  text-align: center;
+}
+
+.content {
+  margin: 3% 20%;
+}
+
+.story p {
+  font-size: 20px;
+  padding-left: 2%;
+  line-height: 2rem;
+}
+
+.president {
+  padding-top: 3%;
+}
+
+.person {
+  max-width:auto;
+  margin:0 2%;
+  text-align:center;
+}
+
+.intro {
+  margin-left: 3%;
+}
+
+.person img {
+  height:auto;
+  width:200px;
+}
+
+.person p {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.line {
+  display: flex;
+}
+
+.photo {
+  height: 200px;
+  width: 200px;
+}
+
+.photo img {
+  height: 200px;
+  width: auto;
+  text-align: center;
 }

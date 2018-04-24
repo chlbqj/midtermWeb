@@ -149,7 +149,7 @@ footer p {
   }
 #main-photo{
     height:630px;
-    width: auto;
+    width: 1135px;
     margin: 0;
   }
 .main-subject{
@@ -201,9 +201,9 @@ footer p {
     text-align: center;
 }
 .join-button{
-    border: 1px black solid;
     width:20%;
     height: 50px;
     font-size:22px;
     font-weight: bold;
+    text-decoration: underline;
 }

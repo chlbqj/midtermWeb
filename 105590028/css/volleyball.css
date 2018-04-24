@@ -147,7 +147,7 @@ body {
  
   .blank #main-photo{
     height: 400px;
-    width: auto;
+    width: auto; 
   }
   
   .blank .intro {

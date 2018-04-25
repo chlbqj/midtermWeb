@@ -7,8 +7,18 @@
     <link rel="Icon" type="image/x-icon" href="./icon/favicon.ico" />
     <title>NTUT CSIE Student Association</title>
     <link rel="stylesheet" href="./css/index.css">
+    <script type="text/javascript" src="./index.js"></script>
+    <script type="text/javascript">
+        x=0;
+        $(document).ready(function(){
+          $("div").scroll(function() {
+            $("span").text(x+=1);
+          });
+        });
+    </script>
   </head>
   <body>
+      <p>滚动了 <span>0</span> 次。</p>
     <nav>
       <div class="title">
         <a href="./index.html"><img id="CSIE" src="./img/CSIE.png"></a>
@@ -105,5 +115,7 @@
         <p>官方Line@：北科資工系學會 @vys5662y</p>
       </div>
     </footer>
+    
+    
   </body>
 </html>

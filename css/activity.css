@@ -105,7 +105,7 @@ nav ul li:hover > ul { /*展開選單*/
   -webkit-transition: opacity 0.5s;
   transition: opacity 0.5s;
 }
-  
+
   #statement {
     width: 50%;
     height: auto;
@@ -115,49 +115,49 @@ nav ul li:hover > ul { /*展開選單*/
     padding-right: 8rem;
     max-width: 30%;
   }
-  
+
   #contact {
     width: 50%;
     height: auto;
     align-items:center;
   }
-  
+
   footer {
     background-color: #235192;
     padding: 1rem 0;
     justify-content: center;
     display: flex;
   }
-  
+
   footer p {
     color: white;
   }
-  
+
 .activity {
     display: flex;
     padding: 1rem 10%;
     align-items: center;
-    
 }
+
 
 .content{
     display: block;
-    
+
 }
 
 .activity .title{
     text-align: center;
-    font-size:50px; 
+    font-size:50px;
     font-weight:bold ;
     margin: 0;
 }
 .activity .word{
-   
-    font-size:30px; 
+
+    font-size:30px;
     max-width: 70%;
     margin: 0;
-    margin-left:15%; 
-    
+    margin-left:15%;
+
 }
 .activity img{
     height: 400px;
@@ -172,9 +172,9 @@ nav ul li:hover > ul { /*展開選單*/
 .picture img{
     height: 630px;
     width: auto;
-    border-radius:1%; 
+    border-radius:1%;
 }
 
 .all{
-    margin-bottom:5rem; 
+    margin-bottom:5rem;
 }
